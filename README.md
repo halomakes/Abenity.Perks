@@ -51,7 +51,7 @@ public Task<IEnumerable<OfferSet>> GetOffersById(string id) =>  perksClient.GetO
 ```
 
 ## Dependencies
-* **NewtonSoft.Json** 10.0.3+
+* **Newtonsoft.Json** 10.0.3+
 
 ## Changelog
 **0.1.0-alpha** Initial Preview
