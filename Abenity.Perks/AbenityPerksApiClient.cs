@@ -25,14 +25,14 @@ namespace Abenity.Perks
         };
 
         private readonly HttpClient httpClient;
-        private readonly AbenityDealsConfiguration config;
+        private readonly AbenityPerksConfiguration config;
 
         /// <summary>
         /// Construct an Abenity Deals API client
         /// </summary>
         /// <param name="config">Configuration for the API client</param>
         /// <param name="httpClient">HTTP client to make requests with</param>
-        public AbenityDealsApiClient(AbenityDealsConfiguration config, HttpClient httpClient)
+        public AbenityDealsApiClient(AbenityPerksConfiguration config, HttpClient httpClient)
         {
             this.config = config;
             this.httpClient = httpClient;
