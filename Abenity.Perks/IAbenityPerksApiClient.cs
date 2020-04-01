@@ -7,7 +7,7 @@ namespace Abenity.Perks
     /// <summary>
     /// Client for fetching data from the Abenity Deals API
     /// </summary>
-    public interface IAbenityDealsApiClient
+    public interface IAbenityPerksApiClient
     {
         /// <summary>
         /// Get all available categories available to your account from the perks API

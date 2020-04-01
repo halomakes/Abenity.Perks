@@ -14,7 +14,7 @@ namespace Abenity.Perks
     /// <summary>
     /// Client for fetching data from the Abenity Deals API
     /// </summary>
-    public class AbenityDealsApiClient : IAbenityDealsApiClient
+    public class AbenityPerksApiClient : IAbenityPerksApiClient
     {
         protected static JsonSerializerSettings settings = new JsonSerializerSettings()
         {
@@ -32,7 +32,7 @@ namespace Abenity.Perks
         /// </summary>
         /// <param name="config">Configuration for the API client</param>
         /// <param name="httpClient">HTTP client to make requests with</param>
-        public AbenityDealsApiClient(AbenityPerksConfiguration config, HttpClient httpClient)
+        public AbenityPerksApiClient(AbenityPerksConfiguration config, HttpClient httpClient)
         {
             this.config = config;
             this.httpClient = httpClient;
