@@ -1,4 +1,4 @@
-# Abenity.Perks [![Version](https://img.shields.io/nuget/v/Abenity.Perks)](https://www.nuget.org/packages/Abenity.Perks/) [![Downloads](https://img.shields.io/nuget/dt/Abenity.Perks)](https://www.nuget.org/packages/Abenity.Perks/) [![Build Status](https://api.travis-ci.org/halomademeapc/Abenity.Perks.svg?branch=master)](https://travis-ci.org/github/halomademeapc/Abenity.Perks)
+# Abenity.Perks [![Version](https://img.shields.io/nuget/vpre/Abenity.Perks)](https://www.nuget.org/packages/Abenity.Perks/) [![Downloads](https://img.shields.io/nuget/dt/Abenity.Perks)](https://www.nuget.org/packages/Abenity.Perks/) [![Build Status](https://api.travis-ci.org/halomademeapc/Abenity.Perks.svg?branch=master)](https://travis-ci.org/github/halomademeapc/Abenity.Perks)
 .NET Standard API Client for interacting with the [Abenity Perks API](https://abenity.com/developers/api/perks)
 This can be used alongside the [Abenity.Members](https://github.com/halomademeapc/Abenity.Members) library to send users directly to a deal's details page.
 
